@@ -1,0 +1,137 @@
+.footer {
+    padding: 70px 0;
+    background-color: #03112d;
+    background-image: url('../images/home/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+.footer-block {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.logo-footer img{
+    margin-bottom: 40px;
+    width: 250px;
+}
+.footer-block__menu li{
+    margin-bottom: 15px;
+}
+.footer-block__menu li a:hover,
+.footer-block__item-email a:hover,
+.footer-block__item-phone a:hover{
+    color: #0475D2;
+}
+.footer-block__item-title {
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.footer-block__item-text,
+.footer-block__item-phone {
+    margin-bottom: 15px;
+}
+
+
+// МОДАЛКА
+.modal--zapis {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(58, 63, 68, .7);
+    overflow: hidden;
+    z-index: 4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal__inner--zapis {
+    position: relative;
+    max-width: 500px;
+    width: 100%;  
+}
+.modal-form--zapis {
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.modal-form__input--zapis {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+.modal-form__btn--zapis{
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0c5adb;
+    color: #fff;
+    cursor: pointer;
+}
+.modal__inner-block-title--zapis{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.modal__close--zapis{
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    font-size: 30px;
+    color: #000;
+    opacity: .5;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.show-modal{
+    display: flex;
+}
+.hide-modal{
+    display: none;
+}
+.modal-form__btn--zapis:hover{
+    background-color: #3f1399;
+}
+
+
+/* КНОПКА НА ВВЕРХ */
+.btnUp{
+    height: 50px;
+    width: 50px;
+    background: #0475D2;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity .5s;
+    pointer-events: none;
+  }
+  
+  .btnUp-visible{
+    opacity: 1;
+    pointer-events: auto;
+  }

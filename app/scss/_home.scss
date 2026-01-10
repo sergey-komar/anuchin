@@ -1,0 +1,195 @@
+.serviceshome {
+    padding: 110px 0;
+}
+.serviceshome-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.serviceshome-block__item {
+    position: relative;
+    width: calc(100% / 3 - 30px);
+    padding: 120px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 11px rgba(0 ,0 ,0, .3);
+    background-size: cover;
+}
+.serviceshome-block__item::after{
+    position: absolute;
+    content: '';
+    top: 25px;
+    left: 40px;
+    width: 70px;
+    height: 70px;  
+    border-radius: 48% 52% 41% 59% / 52% 49% 51% 48%;
+    // background: linear-gradient(30deg, #3f1399 20%, #0c5adb 80%);
+    background-color: #0c5adb;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.serviceshome-block__item:nth-child(1)::after{
+    background-image: url('../images/home/dream-2.svg');
+}
+.serviceshome-block__item:nth-child(2)::after{
+    background-image: url('../images/home/dream-3.svg');
+}
+.serviceshome-block__item:nth-child(3)::after{
+    background-image: url('../images/home/dream-4.svg');
+}
+.serviceshome-block__item:nth-child(4)::after{
+    background-image: url('../images/home/dream-5.svg');
+}
+.serviceshome-block__item:nth-child(5)::after{
+    background-image: url('../images/home/dream-6.svg');
+}
+.serviceshome-block__item:nth-child(6)::after{
+    background-image: url('../images/home/dream-1.svg');
+}
+.serviceshome-block__item-title {
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 1.2;
+}
+.serviceshome-block__list-item{
+    margin-bottom: 10px;
+}
+.serviceshome-block__list-item:last-child{
+    margin-bottom: 20px;
+}
+.serviceshome-block__list-item:hover{
+    color: #0c5adb;
+}
+.serviceshome-block__item-price{
+    margin-top: auto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+// stages
+.stages {
+    padding: 110px 0;
+    background: url('../images/home/stages-bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.stages-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.stages-block__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3 - 30px);
+}
+.stages-block__item-title {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #fff;
+    color: #444;
+}
+.stages-block__item-title p{
+    text-align: center;
+    font-weight: 600;
+}
+.stages-block__item-title span{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    line-height: 53px;
+    border-radius: 50%;
+    background-color: #0475D2;
+    border: 2px solid #fff;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.stages-block__item:nth-child(odd) .stages-block__item-title span{
+    bottom: auto;
+    top: 15px;
+    right: -15px;
+}
+.stages-block__item:nth-child(even) .stages-block__item-title span{
+    bottom: 15px;
+    right: -5px;
+}
+.stages-block__item-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+// questions
+.questions{
+    padding: 110px 0;
+    background-color: #F5F7FA;
+}
+.questions__wrapper {
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.questions-accardion__btn {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questions-accardion__title {
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.questions-accardion__circle {
+    position: relative;
+    min-width: 22px;
+}
+.questions-accardion__circle::before{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 3px;
+    top: 0;
+    right: 0;
+    background-color: #0475D2;
+}
+.questions-accardion__circle::after{
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 22px;
+    top: -9px;
+    right: 9px;
+    background-color: #0475D2;
+}
+.questions-accardion__content {
+    padding: 0px 15px 15px 25px;
+    display: none;
+}
+.questions-accardion__btn.open .questions-accardion__circle::after{
+    display: none;
+}
+.questions-accardion__btn.open .questions-accardion__circle::before{
+    background-color: #00a1f0;
+}
+
+// 
