@@ -8,7 +8,7 @@
 }
 .serviceshome-block__item {
     position: relative;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 27px);
     padding: 120px 40px 40px 40px;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 27px);
 }
 .stages-block__item-title {
     margin-bottom: 20px;
@@ -133,6 +133,66 @@
     font-size: 16px;
     line-height: 1.5;
 }
+
+
+
+// advantages
+.advantages{
+    padding: 110px 0;
+    background: #F5F7FA;
+    background-image: url('../images/home/advantages-bg.png');
+    background-size: 40%, contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.advantages-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.advantages-block__item {
+    position: relative;
+    padding: 50px 50px 50px 0;
+    width: calc(100% / 2 - 20px);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-position: 20px 30px;
+    box-shadow: 0px 25px 70px 0px #00000012;
+    z-index: 1;
+    border-radius: 10px;
+    transition: all .4s ease-in;
+}
+.advantages-block__item:nth-child(1){
+   background-image: url('../images/home/advantages-3.png');
+}
+.advantages-block__item:nth-child(2){
+   background-image: url('../images/home/advantages-1.png');
+}
+.advantages-block__item:nth-child(3){
+   background-image: url('../images/home/advantages-2.png');
+}
+.advantages-block__item:nth-child(4){
+   background-image: url('../images/home/advantages-4.png');
+}
+.advantages-block__item:nth-child(5){
+   background-image: url('../images/home/advantages-5.png');
+}
+.advantages-block__item:nth-child(6){
+   background-image: url('../images/home/advantages-6.png');
+}
+.advantages-block__item:hover{
+    background-color: #3f1399;
+    color: #fff;
+    transition: all .4s ease-in;
+}
+.advantages-block__item-title {
+    margin: 0 0 20px 170px;
+}
+.advantages-block__item-text {
+     margin-left: 170px;
+}
+
 
 
 
