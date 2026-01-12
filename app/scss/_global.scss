@@ -7,7 +7,7 @@ body {
 	scroll-behavior: smooth;
 	font-family: 'Roboto';
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.4;
 	color: #444;
  }
@@ -40,6 +40,12 @@ button:hover{
 	margin-bottom: 55px;
 	font-size: 37px;
 	text-align: center;
+}
+.title-page{
+	margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
 }
 .btn{
 	display: block;
