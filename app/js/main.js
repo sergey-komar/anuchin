@@ -68,7 +68,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
           // Маска для Инпута
             var element = document.getElementById('input-mask');
-           
+            var element1 = document.getElementById('input-mask1');
             
             var maskOptions = {
                 mask: '+{7}(000)000-00-00'
@@ -76,6 +76,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
             if(element){
                 var mask = IMask(element, maskOptions);
+            }
+            if(element1){
+                var mask1 = IMask(element1, maskOptions);
             }
            
 

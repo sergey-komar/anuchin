@@ -1,0 +1,158 @@
+.corporate-heading{
+    padding-bottom: 110px;
+}
+.corporateprice {
+    padding: 110px 0;
+    background-color:  #F5F7FA;
+}
+.corporateprice__text {
+    margin-bottom: 40px;
+}
+.corporateprice-block {
+    display: flex;
+    gap: 40px;
+}
+.corporateprice-block__img {
+    width: 50%;
+}
+.corporateprice-block__img img{
+    width: 100%;
+}
+.corporateprice-block__content {
+    width: 50%;
+}
+.corporateprice-block__content-title {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.corporateprice-block__content-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.corporateprice-block__list-item {
+    margin: 0px 0 25px 40px;
+    position: relative;
+}
+.corporateprice-block__list-item::before{
+    position: absolute;
+    content: url('../images/corporate/Check.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 50%;
+    background-color: #0c5adb;
+    top: -3px;
+    left: -40px;
+}
+.corporateprice-block__content-price{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+.corporateprice-block__content-btn{
+     width: 300px;
+}
+
+// corporatedifferences
+.corporatedifferences {
+    padding: 110px 0;
+}
+.corporatedifferences-box__item {
+    margin-bottom: 40px;
+}
+.corporatedifferences-box__item-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.corporatedifferences-box__item-text {
+    margin-bottom: 20px;
+}
+.corporatedifferences-box__item-text span,
+.corporatedifferences-box__item-info span{
+    font-weight: 500;
+}
+.corporatedifferences__subtitle {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.corporatedifferences__list-item {
+    margin: 0px 0 35px 40px;
+    position: relative;
+}
+.corporatedifferences__list-item::before{
+    position: absolute;
+    content: url('../images/corporate/Check.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 50%;
+    background-color: #0c5adb;
+    top: -3px;
+    left: -40px;
+}
+.corporatedifferences__list-item span{
+    font-weight: 500;
+}
+
+// .corporateadvantages
+.corporateadvantages{
+    padding: 110px 0;
+    background-image: url('../images/corporate/advantage-bg.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #03112d;
+    color: #fff;
+}
+.corporateadvantages__title{
+     color: #bc49cc;
+}
+.corporateadvantages-block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.corporateadvantages-block__img {
+    width: 45%;
+}
+.corporateadvantages-block__content {
+    width: 65%;
+}
+.corporateadvantages-block__item {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+.corporateadvantages-block__item-number {
+    font-size: 60px;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+    line-height: 1;
+}
+.corporateadvantages-block__item-text p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.corporateadvantages-block__item-text span{
+    opacity: .8;
+}
+
+
+

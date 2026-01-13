@@ -1,10 +1,20 @@
 .shop-heading{
     padding: 110px 0 0px 0;
 }
-.shop-heading__text {
-    margin-bottom: 30px;
+.shop-heading__block{
+    display: flex;
+    gap: 40px;
+}
+.hop-heading__content{
+    width: 50%;
+}
+.shop-heading__text p{
+    margin-bottom: 20px;
 }
 .shop-heading__img{
+    width: 50%;
+}
+.shop-heading__img img{
     width: 100%;
     border-radius: 8px;
 }
@@ -36,6 +46,9 @@
     font-weight: 500;
     font-size: 20px;
 }
+.shopprice-block__list{
+    margin-left: 17px;
+}
 .shopprice-block__list-item {
     margin-bottom: 20px;
 }
@@ -49,13 +62,17 @@
     margin-bottom: 40px;
     font-size: 30px;
     font-weight: 700;
-     color: #3f1399;
+    color: #3f1399;
 }
 .shopprice-block__content-btn {
     width: 300px;
 }
+.shopprice-block__shop{
+    width: 35%;
+}
 .shopprice-block__site {
-     width: 35%;
+    display: block;
+    margin-bottom: 40px;
 }
 .shopprice-block__site-img {
     margin-bottom: 20px;
@@ -127,10 +144,6 @@
 .shopwork {
     padding: 110px 0;
 }
-.shopwork__title {
-}
-.shopwork-block {
-}
 .shopwork-block__list {
     list-style-type: none;
     counter-reset: num;
@@ -162,12 +175,11 @@
     left: -70px;
     font-size: 18px;
     font-weight: 500;
-    top: -7px;
+    top: 0px;
 }
 .shop-text{
    padding: 110px 0;
 }
-
 .shop-text__desc p{
      margin-bottom: 20px;
 }

@@ -1,0 +1,88 @@
+// contact
+.contact{
+    padding: 110px 0;
+    background-color:  #F5F7FA;
+}
+.contact__title.title-page{
+    margin-bottom: 50px;
+}
+.contact-block {
+    display: flex;
+    gap: 40px;
+}
+.contact-block__info{
+   
+}
+.contact-block__content {
+    width: 50%;
+}
+.contact-block__content-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.contact-block__item {
+    display: inline-block;
+    margin: 0px 0 40px 80px;
+    position: relative;
+}
+.contact-block__item::before{
+    position: absolute;
+    height: 61px;
+    width: 61px;
+    text-align: center;
+    line-height: 61px;
+    left: -80px;
+}
+.contact-block__item-tel::before {
+    content: url('../images/corporate/phone.svg');
+    background: linear-gradient(180deg, #d5bbff 0%, #4787FA00 100%);
+}
+.contact-block__item--email::before{
+    content: url('../images/corporate/mail.svg');
+    background: linear-gradient(180deg, #72C22742 0%, #4787FA00 100%);
+}
+.contact-block__item--address::before{
+    content: url('../images/corporate/location.svg');
+    background: linear-gradient(180deg, #ffb6a0 0%, #4787FA00 100%);
+}
+.contact-block__item-title {
+    margin-bottom: 5px;
+}
+.contact-block__item-text {
+    font-weight: 700;
+    font-size: 18px;
+    transition: all .3s ease-in;
+}
+.contact-block__item--email:hover .contact-block__item-text,
+.contact-block__item-tel:hover .contact-block__item-text{
+    color: #0c5adb;
+    transition: all .3s ease-in;
+}
+.contact-form {
+    width: 50%;
+}
+.contact-form__block {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 11px rgba(0 ,0 ,0, .3);
+}
+.contact-form__block-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.contact-form__block-input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+.contact-form__block-btn {
+    max-width: 320px;
+    width: 100%;
+}
