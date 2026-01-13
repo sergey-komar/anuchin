@@ -1,0 +1,212 @@
+.vizitka-heading{
+    padding: 50px 0 110px 0;
+}
+.vizitkaprice {
+    padding: 110px 0 90px 0;
+    background-color:  #F5F7FA;
+}
+.vizitkaprice-block {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.vizitkaprice-block__item {
+    width: 35%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 11px rgba(0 ,0 ,0, .3);
+    overflow: hidden;
+}
+.vizitkaprice-block__item-text {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.vizitkaprice-block__item-text::after{
+    position: absolute;
+    right: -10%;
+    top: -165%;
+    content: "";
+    height: 350%;
+    width: 120%;
+    background: #0475D2;
+    z-index: -1;
+    transform: skewY(-6deg);
+}
+.vizitkaprice-block__item:first-child .vizitkaprice-block__item-text::after{
+     background: #03112d;
+}
+.vizitkaprice-block__list {
+    margin: 65px 0 20px 20px;
+}
+.vizitkaprice-block__list-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+.vizitkaprice-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 24px;
+    left: -30px;
+    top: -3px;
+    background: url('../images/vizitka/arrow-list.svg') no-repeat;
+}
+.vizitkaprice-block__item-price {
+    margin: 0 0 20px 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.vizitkaprice-block__item-btn {
+    margin-left: 20px;
+    width: 300px;
+}
+.vizitkaprice__text {
+    margin-bottom: 20px;
+}
+.vizitkaprice__text span{
+    font-weight: 600;
+}
+
+
+// vizitkaenters
+.vizitkaenters{
+    padding: 110px 0;
+}
+.vizitkaenters-block__list {
+    list-style-type: none;
+    counter-reset: num;
+}
+.vizitkaenters-block__list-item {
+    margin: 30px 0 0 68px;
+    position: relative;
+}
+.vizitkaenters-block__list-item span{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.vizitkaenters-block__list-item::before{
+    position: absolute;
+    content: counter(num);
+    counter-increment: num;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #0c5adb;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 50%;
+    left: -65px;
+    font-size: 18px;
+    font-weight: 500;
+    top: 0px;
+}
+
+
+
+// vizitkadifference
+.vizitkadifference {
+    padding: 110px 0;
+    background-color:  #F5F7FA;
+}
+.vizitkadifference__subtitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.vizitkadifference-box__list-item{
+    position: relative;
+     margin: 0px 0 25px 40px;
+}
+.vizitkadifference-box__list-item span{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.vizitkadifference-box__list-item::before {
+     position: absolute;
+    content: url('../images/corporate/Check.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 50%;
+    background-color: #0c5adb;
+    top: 1px;
+    left: -40px;
+}
+
+
+// vizotkastages
+.vizotkastages {
+    padding: 110px 0;
+    position: relative;
+    background: url('../images/vizitka/vizitka-banne.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.vizotkastages::after{
+    background: #0475D2;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.vizotkastages__title{
+    color: #fff;
+}
+.vizotkastages-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.vizotkastages-block__item {
+    width: calc(100% / 3 - 30px);
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.vizotkastages-block__item-number {
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(30deg, #3f1399 20%, #0c5adb 80%)
+}
+.vizotkastages-block__item-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.vizitkatext{
+    padding: 110px 0;
+}
+.vizitkatext-info p{
+    margin-bottom: 20px;
+}
