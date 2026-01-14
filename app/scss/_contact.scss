@@ -3,6 +3,9 @@
     padding: 110px 0;
     background-color:  #F5F7FA;
 }
+.contact__title{
+    font-weight: 700;
+}
 .contact__title.title-page{
     margin-bottom: 50px;
 }
@@ -10,7 +13,6 @@
     display: flex;
     gap: 40px;
 }
-
 .contact-block__content {
     width: 50%;
 }

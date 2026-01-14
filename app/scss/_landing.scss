@@ -1,0 +1,217 @@
+.landingprice {
+    padding: 110px 0;
+    // background-color:  #F5F7FA;
+}
+.landingprice-block {
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+}
+.landingprice-block__item {
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.landingprice-block__item-img {
+    position: relative;
+    width: 20%;  
+}
+.landingprice-block__item-img img{
+    margin: 0 auto;
+}
+.landingprice-block__item-title {
+    position: relative;
+    width: 18%;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.landingprice-block__content {
+    position: relative;
+    width: 25%;
+}
+.landingprice-block__list {
+    margin-left: 65px;
+}
+.landingprice-block__list-item {
+    margin-bottom: 10px;
+    position: relative;
+}
+.landingprice-block__item:nth-child(1),
+.landingprice-block__item:nth-child(3){
+     background-color:  #F5F7FA;
+}
+.landingprice-block__item:nth-child(2){
+    background: linear-gradient(30deg, #3f1399 20%, #0c5adb 80%);
+    color: #fff;
+}
+.landingprice-block__list-item::before{
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 24px;
+    left: -30px;
+    top: -3px;
+    background: url('../images/vizitka/arrow-list.svg') no-repeat;
+}
+.landingprice-block__item-price {
+    position: relative;
+    width: 20%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.landingprice-block__item-price::after,
+.landingprice-block__content::after,
+.landingprice-block__item-title::after,
+.landingprice-block__item-img::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 500px;
+    background-color: #e7e7e7;
+    top: -107px;
+    right: -10px;
+}
+.landingprice-block__item-end{
+    width: 20%;
+}
+.landingprice-block__item-btn {
+    width: 170px;
+    margin: 0 auto;
+}
+.landingprice-block__item:nth-child(2) .landingprice-block__item-btn{
+    background-color: #fff;
+    color: #0c5adb;
+} 
+.landingprice-block__item:nth-child(2) .landingprice-block__item-btn:hover{
+    background-color: #2d9efa;
+    color: #fff;
+}
+
+
+
+
+// landingstages
+.landingstages {
+    padding: 110px 0;
+    background-color:  #F5F7FA;
+}
+.landingstages-block__list {
+     counter-reset: num;
+}
+.landingstages-block__list-item {
+    margin: 30px 0 0 68px;
+    position: relative;
+}
+.landingstages-block__list-item span{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.landingstages-block__list-item::before{
+    position: absolute;
+    content: counter(num);
+    counter-increment: num;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #0c5adb;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 50%;
+    left: -65px;
+    font-size: 18px;
+    font-weight: 500;
+    top: 0px;
+}
+
+
+// landingspheres
+.landingspheres {
+    padding: 100px 0;
+    background: linear-gradient(30deg, #3f1399 20%, #0c5adb 80%);
+}
+.landingspheres svg{
+    transform: translateY(-100px);
+    height: 50px;
+    width: 100%;
+}
+.landingspheres__title {
+    color: #fff;
+}
+.landingspheres__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.landingspheres-block {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.landingspheres-block__item {
+    width: calc(100% / 3 - 30px);
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 5px 11px rgba(0 ,0 ,0, .3);
+}
+.landingspheres-block__img img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+.landingspheres-block__item-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.landingspheres__info {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+//landingorder
+.landingorder{
+    padding: 110px 0;
+    background-color:  #F5F7FA;
+}
+.landingorder-block__list-item {
+    position: relative;
+    margin: 0px 0 25px 40px;
+}
+.landingorder-block__list-item span{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.landingorder-block__list-item::before{
+     position: absolute;
+    content: url('../images/corporate/Check.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 50%;
+    background-color: #0c5adb;
+    top: 3px;
+    left: -40px;
+}
+.creation{
+    padding: 110px 0;
+}
+.creation-text p{
+    margin-bottom: 20px;
+}
