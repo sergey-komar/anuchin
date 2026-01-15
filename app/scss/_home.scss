@@ -253,7 +253,7 @@
     position: relative;
     padding: 50px 50px 50px 0;
     width: calc(100% / 2 - 20px);
-    background-size: 20%;
+    background-size: 17%;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0.6);
     background-position: 20px 30px;
@@ -330,7 +330,7 @@
     backface-visibility: hidden; /* Скрывает заднюю часть при повороте */
 }
 .homeguarantees-block__content-img img{
-    width: 120px;
+    width: 100px;
     margin: 0 auto 20px auto;
 }
 .homeguarantees-block__content-title {
@@ -430,12 +430,6 @@
 
 .home-text {
     padding: 110px 0;
-}
-.container {
-}
-.home-text__title {
-}
-.title {
 }
 .home-text__info p{
     margin-bottom: 20px;
