@@ -62,7 +62,7 @@
     transition: all .3s ease-in;
 }
 ul.sub-menu{
-    opacity: 0;
+    display: none;
     min-width: max-content;
     position: absolute;
     top: 100%;
@@ -72,6 +72,7 @@ ul.sub-menu{
     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.15);
     border: 1px solid transparent;
     transition: all .5s ease-in;
+    border-radius: 8px;
 }
 .sub-menu li a {
     padding-bottom: 20px;
@@ -101,7 +102,8 @@ ul.sub-menu{
     transform: translateY(10px);
 }
 .menu li:hover .sub-menu{
-    opacity: 1;
+    display: flex;
+    flex-direction: column;
     transition: all .3s ease-in;
 }
 .sub-menu li:hover a{

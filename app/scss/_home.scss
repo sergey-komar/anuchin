@@ -14,7 +14,7 @@
     line-height: 1.2;
 }
 .heading-block__contrnt-text {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 20px;
 }
 .heading-block__info {
@@ -313,6 +313,7 @@
     perspective: 1000px;
     border-radius: 8px;
     cursor: pointer;
+    transition: all .3s ease-in;
 }
 .homeguarantees-block__wrapper{
     position: relative;
@@ -352,7 +353,7 @@
     transform: rotateY(180deg); /* Обратная сторона повернута */
 }
 .homeguarantees-block__flip-text {
-    padding: 10px;
+    padding: 20px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -360,7 +361,10 @@
 .homeguarantees-block__item:hover .homeguarantees-block__wrapper{
     transform: rotateY(180deg);
 }
-
+.homeguarantees-block__item:hover{
+    padding: 0;
+    transition: all .3s ease-in;
+}
 
 
 // homewhy
@@ -374,6 +378,7 @@
 }
 .homewhy-block__list-item span{
     margin-bottom: 5px;
+    display: block;
     font-size: 18px;
     font-weight: 600;
 }

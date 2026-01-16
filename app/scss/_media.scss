@@ -1,0 +1,148 @@
+@media(max-width: 1250px){
+    .siteprice-block__item{
+        width: calc(100% / 2 - 10px);
+    }
+    .siteprice-block{
+        flex-wrap: wrap;
+    }
+    .siteprice-block__item-title::after{
+        top: -205%;
+        height: 385%;
+    }
+}
+
+@media(max-width: 968px){
+    .serviceshome-block__item,
+    .stages-block__item,
+    .homeguarantees-block__item{
+        width: calc(100% / 2 - 27px);
+    }
+    .serviceshome,
+    .siteprice,
+    .homeinfluences,
+    .stages,
+    .advantages,
+    .homeguarantees,
+    .homewhy{
+        padding: 40px 0;
+    }
+    .advantages-block__item{
+        padding: 20px;
+        background-size: 0;
+    }
+    .advantages-block__item-title,
+    .advantages-block__item-text{
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width: 650px){
+    .title{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .serviceshome-block__item,
+    .siteprice-block__item,
+    .stages-block__item,
+    .advantages-block__item,
+    .homeguarantees-block__item{
+        width: 100%;
+    }
+    .serviceshome-block,
+    .advantages-block,
+    .homeguarantees-block{
+        gap: 20px;
+    }
+    .serviceshome-block__item,
+    .siteprice-block__item,
+    .homeguarantees-block__item{
+        padding: 20px;
+    }
+    .serviceshome-block__item-price,
+    .modal__inner-block-title--zapis{
+        font-size: 22px;
+    }
+    .serviceshome-block__item-title,
+    .siteprice-block__item-title{
+        font-size: 20px;
+    }
+    .homeguarantees-block__content-title{
+        font-size: 18px;
+    }
+    .stages-block__item-title p{
+        font-size: 17px;
+    }
+    .stages-block__item-text{
+        font-size: 15px;
+    }
+    .stages-block__item-title span{
+        width: 45px;
+        height: 45px;
+        line-height: 42px;
+        font-size: 16px;
+    }
+    .homeguarantees-block__content-img img{
+        width: 65px;
+    }
+    .homeinfluences-block__list-item::before{
+        width: 35px;
+        height: 35px;
+    }
+    .homeinfluences-block__list-item{
+        margin: 20px 0  0 45px;
+    }
+    .homeinfluences-block__list-item::before{
+        left: -45px;
+        font-size: 16px;
+    }
+    .btnUp{
+        height: 45px;
+        width: 45px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .modal__inner-block--zapis{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .modal-form__input--zapis{
+        padding: 12px;
+    }
+    .modal__close--zapis{
+        right: 30px;
+        top: 0;
+    }
+    .modal-form--zapis{
+        padding: 30px 20px 30px 20px;
+    }
+    .serviceshome{
+        margin-top: 10px;
+    }
+    .serviceshome-block__item::after{
+        display: none;
+    }
+    .stages-block__item-title{
+        width: 170px;
+        height: 170px;
+    }
+    .stages-block__item:nth-child(even) .stages-block__item-title span{
+        bottom: 0;
+    }
+    .stages-block__item:nth-child(odd) .stages-block__item-title span{
+        top: 0;
+        right: -5px;
+    }
+    .homeguarantees-block__item{
+        height: 230px;
+    }
+    .homewhy-block__list-item::before{
+        width: 25px;
+        height: 25px;
+        left: -35px;
+        top: 3px;
+    }
+    .homewhy-block__list-item{
+        margin-left: 35px;
+    }
+}
