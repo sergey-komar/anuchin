@@ -9,12 +9,22 @@
         top: -205%;
         height: 385%;
     }
+    .vizitkaprice-block__item{
+        width: 50%;
+    }
+    .vizitkaprice-block__item-text::after{
+        top: -172%;
+    }
 }
 
 @media(max-width: 968px){
     .serviceshome-block__item,
     .stages-block__item,
-    .homeguarantees-block__item{
+    .homeguarantees-block__item,
+    .saving-block__item,
+    .siterezalt-block__item,
+    .landingspheres-block__item,
+    .vizotkastages-block__item{
         width: calc(100% / 2 - 27px);
     }
     .serviceshome,
@@ -23,8 +33,118 @@
     .stages,
     .advantages,
     .homeguarantees,
-    .homewhy{
+    .homewhy,
+    .saving,
+    .home-text,
+    .questions,
+    .footer,
+    .shopprice,
+    .shopaudience,
+    .shopwork,
+    .shop-text,
+    .siteorder,
+    .siterezalt,
+    .sitezakazat,
+    .contact,
+    .portfolio,
+    .corporateprice,
+    .corporatedifferences,
+    .corporateadvantages,
+    .landingprice,
+    .landingstages,
+    .landingspheres,
+    .landingorder,
+    .creation,
+    .vizitkaprice,
+    .vizitka-heading,
+    .vizitkaenters,
+    .vizitkadifference,
+    .vizotkastages,
+    .vizitkatext,
+    .seosistem,
+    .seoprice,
+    .seoenters,
+    .seoconsists,
+    .seoplus,
+    .seo-text,
+    .seopositions,
+    .error{
         padding: 40px 0;
+    }
+    .footer-block,
+    .shop-heading__block,
+    .shopprice-block,
+    .siteorder-block,
+    .contact-block,
+    .corporateprice-block,
+    .corporateadvantages-block,
+    .landingprice-block__item,
+    .vizitkaprice-block,
+    .seoprice-block,
+    .seosistem-block,
+    .error{
+        flex-wrap: wrap;
+    }
+    .hop-heading__content,
+    .shop-heading__img,
+    .shopprice-block__content,
+    .shopprice-block__shop,
+    .shopaudience-block__item,
+    .shopaudience-block__item:nth-child(2), 
+    .shopaudience-block__item:nth-child(1),
+    .siteorder-block__content,
+    .siteorder-block__img,
+    .contact-block__content,
+    .contact-form,
+    .corporateprice-block__img,
+    .corporateprice-block__content,
+    .corporateadvantages-block__img,
+    .corporateadvantages-block__content,
+    .landingprice-block__item-img,
+    .landingprice-block__item-title,
+    .landingprice-block__content,
+    .landingprice-block__item-price,
+    .seoprice-block__item,
+    .error__img,
+    .error__content{
+        width: 100%;
+    }
+    .shop-heading{
+        padding-top: 40px;
+    }
+    .corporate-heading{
+        padding-bottom: 40px;
+    }
+    .landingprice-block__item-price::after,
+    .landingprice-block__content::after,
+    .landingprice-block__item-title::after,
+    .landingprice-block__item-img::after{
+        display: none;
+    }
+    .landingprice-block__item{
+        align-items: flex-start;
+    }
+    .landingprice-block__item-title,
+    .landingprice-block__item-price{
+        text-align: left;
+    }
+    .landingprice-block__list{
+        margin-left: 20px;
+    }
+    .landingprice-block__item{
+        gap: 20px;
+        padding: 20px;
+    }
+    .landingprice-block__item-img img{
+        margin: 0;
+    }
+    .shopprice-block__shop{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .shopprice-block--order .shopprice-block__content{
+        order: -1;
     }
     .advantages-block__item{
         padding: 20px;
@@ -34,7 +154,25 @@
     .advantages-block__item-text{
         margin-left: 0;
     }
+    .landingspheres__svg{
+        display: none;
+    }
+    .seosistem-block__item{
+        width: 50%;
+    }
+    .seoconsists-block__item{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .seoconsists-block__item-img img{
+        min-width: 65px;
+        width: 65px;
+    }
 }
+
+
+
+
 
 
 @media(max-width: 650px){
@@ -42,35 +180,131 @@
         margin-bottom: 20px;
         font-size: 24px;
     }
+    .title-page{
+        font-size: 27px;
+    }
+    .btn{
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
     .serviceshome-block__item,
     .siteprice-block__item,
     .stages-block__item,
     .advantages-block__item,
-    .homeguarantees-block__item{
+    .homeguarantees-block__item,
+    .saving-block__item,
+    .footer-block__item,
+    .siterezalt-block__item,
+    .landingprice-block__item-end,
+    .landingspheres-block__item,
+    .vizitkaprice-block__item,
+    .vizotkastages-block__item,
+    .seosistem-block__item,
+    .seoconsists-block__item{
         width: 100%;
     }
     .serviceshome-block,
     .advantages-block,
-    .homeguarantees-block{
+    .homeguarantees-block,
+    .saving-block,
+    .footer-block,
+    .shopaudience-block,
+    .siterezalt-block,
+    .contact-block,
+    .landingspheres-block,
+    .shop-heading__block,
+    .vizotkastages-block,
+    .seosistem-block,
+    .seoprice-block{
         gap: 20px;
     }
     .serviceshome-block__item,
     .siteprice-block__item,
-    .homeguarantees-block__item{
+    .homeguarantees-block__item,
+    .shopaudience-block__item,
+    .contact-form__block,
+    .siterezalt-block__item,
+    .landingspheres-block__item,
+    .vizitkaprice-block__item,
+    .vizotkastages-block__item,
+    .seoprice-block__item,
+    .seoconsists-block__item{
         padding: 20px;
     }
     .serviceshome-block__item-price,
-    .modal__inner-block-title--zapis{
+    .modal__inner-block-title--zapis,
+    .shopprice-block__content-title,
+    .shopaudience-block__item:nth-child(1),
+    .corporateprice-block__content-price{
         font-size: 22px;
     }
     .serviceshome-block__item-title,
-    .siteprice-block__item-title{
+    .siteprice-block__item-title,
+    .contact-form__block-title,
+    .corporatedifferences-box__item-title,
+    .landingprice-block__item-titl,
+    .landingspheres-block__item-title,
+    .vizitkaprice-block__item-text,
+    .vizitkaprice-block__item-price,
+    .seoprice-block__item-price,
+    .error__content-link{
         font-size: 20px;
     }
-    .homeguarantees-block__content-title{
+    .homeguarantees-block__content-title,
+    .saving-block__item-title,
+    .questions-accardion__title,
+    .shopprice-block__site-text,
+    .contact-block__content-title{
         font-size: 18px;
     }
-    .stages-block__item-title p{
+    .contact-block__item:last-child,
+    .corporateprice__text,
+    .corporatedifferences-box__item,
+    .corporatedifferences__list-item,
+    .landingspheres-block,
+    .contact__title.title-page{
+        margin-bottom: 20px;
+    }
+    .homeinfluences-block__list-item::before,
+    .shopwork-block__list-item::before,
+    .landingstages-block__list-item::before,
+    .vizitkaenters-block__list-item::before,
+    .seoplus-block__list-item::before{
+        width: 35px;
+        height: 35px;
+        left: -45px;
+        font-size: 16px;
+    }
+    .homeinfluences-block__list-item,
+    .shopwork-block__list-item,
+    .landingstages-block__list-item,
+    .vizitkaenters-block__list-item,
+    .seoplus-block__list-item{
+        margin: 20px 0  0 45px;
+    }
+    .homewhy-block__list-item::before,
+    .siteorder-block__list-item::before,
+    .corporateprice-block__list-item::before,
+    .corporatedifferences__list-item::before,
+    .vizitkadifference-box__list-item::before{
+        width: 25px;
+        height: 25px;
+        left: -35px;
+        top: 3px;
+    }
+    .homewhy-block__list-item,
+    .siteorder-block__list-item,
+    .corporateprice-block__list-item,
+    .corporatedifferences__list-item,
+    .vizitkadifference-box__list-item{
+        margin-left: 35px;
+    }
+    .stages-block__item-title p,
+    .landingspheres__info,
+    .landingspheres__text,
+    .error__content-text{
         font-size: 17px;
     }
     .stages-block__item-text{
@@ -82,19 +316,18 @@
         line-height: 42px;
         font-size: 16px;
     }
-    .homeguarantees-block__content-img img{
+    .homeguarantees-block__content-img img,
+    .saving-block__item-img img,
+    .siterezalt-block__item-img img,
+    .landingspheres-block__img img,
+    .seoprice-block__top-img img{
         width: 65px;
     }
-    .homeinfluences-block__list-item::before{
-        width: 35px;
-        height: 35px;
+    .seoprice-block__top-img img{
+        min-width: 65px;
     }
-    .homeinfluences-block__list-item{
-        margin: 20px 0  0 45px;
-    }
-    .homeinfluences-block__list-item::before{
-        left: -45px;
-        font-size: 16px;
+    .questions-accardion__btn{
+        padding: 15px;
     }
     .btnUp{
         height: 45px;
@@ -134,15 +367,90 @@
         right: -5px;
     }
     .homeguarantees-block__item{
-        height: 230px;
+        height: 220px;
     }
-    .homewhy-block__list-item::before{
-        width: 25px;
-        height: 25px;
-        left: -35px;
-        top: 3px;
+    .questions-accardion__circle::before{
+        width: 19px;
+        top: -1px;
     }
-    .homewhy-block__list-item{
-        margin-left: 35px;
+    .questions-accardion__circle::after{
+        height: 19px;
+        right: 8px;
     }
+    .logo-footer img{
+        margin-bottom: 20px;
+        width: 200px;
+    }
+    .footer-block__item-prava,
+    .footer-bootom__policy,
+    .footer-block__item-text,
+    .footer-block__item-phone,
+    .footer-block__item-phone{
+        font-size: 14px;
+    }
+    .footer-block__item-title{
+       margin-bottom: 10px;
+       font-weight: 700;
+    }
+    .shopprice-block__content-price{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .shopprice-block__site{
+        margin-bottom: 0px;
+    }
+    .shop-heading__block{
+        gap: 0;
+    }
+    .shopprice-block{
+        margin-bottom: 40px;
+    }
+    .shopprice{
+        padding-bottom: 0;
+    }
+    .questions-accardion__content{
+        padding-left: 15px;
+    }
+    .contact-form__block-input{
+        padding: 12px;
+    }
+    .contact-form__block-btn{
+        max-width: 100%;
+    }
+    .corporateadvantages-block__item-number{
+        font-size: 35px;
+    }
+    .corporateadvantages-block__item{
+        gap: 10px;
+    }
+    .vizitkaprice-block__item-btn,
+    .vizitkaprice-block__item-price{
+        margin-left: 0;
+    }
+    .vizitkaprice-block__list{
+        margin-top: 45px;
+    }
+    .vizitkaprice-block{
+        margin-bottom: 35px;
+    }
+    .vizotkastages-block__item-number{
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .seosistem-block__item-title{
+        margin-left: 20px;
+    }
+    .seosistem-block__item-text{
+        padding: 0 0 20px 20px;
+    }
+    .error__content{
+        text-align: center;
+    }
+    .error__content-num{
+        margin-bottom: 10px;
+        font-size: 70px;
+        line-height: 1;
+    }
+    
 }

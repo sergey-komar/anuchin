@@ -194,6 +194,9 @@
     font-size: 18px;
     font-weight: 600;
 }
+.landingorder-block__list-item:last-child{
+    margin-bottom: 0;
+}
 .landingorder-block__list-item::before{
      position: absolute;
     content: url('../images/corporate/Check.svg');
@@ -214,4 +217,7 @@
 }
 .creation-text p{
     margin-bottom: 20px;
+}
+.creation-text p:last-child{
+    margin-bottom: 0;
 }

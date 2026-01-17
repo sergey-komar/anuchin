@@ -154,10 +154,6 @@
 }
 
 @media(max-width: 550px){
-    .btn{
-        height: 45px;
-        line-height: 45px;
-    }
     .heading-block__content-title{
         font-size: 27px;
     }
@@ -173,5 +169,11 @@
     }
     .heading-block{
         padding-top: 90px;
+    }
+    .header-top{
+        padding: 10px 0 15px 0;
+    }
+    .header.header-page {
+        height: 63px;
     }
 }

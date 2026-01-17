@@ -126,6 +126,9 @@
     position: relative;
      margin: 0px 0 25px 40px;
 }
+.vizitkadifference-box__list-item:last-child{
+    margin-bottom: 0;
+}
 .vizitkadifference-box__list-item span{
     margin-bottom: 5px;
     font-size: 18px;
@@ -209,4 +212,7 @@
 }
 .vizitkatext-info p{
     margin-bottom: 20px;
+}
+.vizitkatext-info p:last-child{
+    margin-bottom: 0;
 }

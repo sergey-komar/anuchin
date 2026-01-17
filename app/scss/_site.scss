@@ -76,7 +76,9 @@
     font-size: 20px;
     font-weight: 600;
 }
-
+.siteorder-block__list-item:last-child{
+    margin-bottom: 0;
+}
 
 // siteorder
 .siteorder{
@@ -149,4 +151,7 @@
 }
 .sitezakazat__text p{
     margin-bottom: 20px;
+}
+.sitezakazat__text p:last-child{
+    margin-bottom: 0;
 }

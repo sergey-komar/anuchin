@@ -93,6 +93,9 @@
      position: relative;
     margin: 0px 0 25px 40px;
 }
+.seoenters-block__list-item:last-child{
+    margin-bottom: 0;
+}
 .seoenters-block__list-item span{
     margin-bottom: 5px;
     font-size: 18px;
@@ -124,7 +127,7 @@
 }
 .seoconsists-block__item {
     padding: 40px;
-    width: calc(100% / 2 - 30px);
+    width: calc(100% / 2 - 17px);
     display: flex;
     gap: 30px;
     border-radius: 10px;
@@ -180,6 +183,9 @@
 }
 .seo-text__info p{
     margin-bottom: 20px;
+}
+.seo-text__info p:last-child{
+    margin-bottom: 0;
 }
 .seo-text__info p span{
     display: block;
